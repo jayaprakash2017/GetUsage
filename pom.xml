@@ -62,7 +62,7 @@
 
   </dependencies>
   <build>
-    <finalName>fetchinfo1.0</finalName>
+    <finalName>getusage</finalName>
     
       <plugins>
  <plugin>
