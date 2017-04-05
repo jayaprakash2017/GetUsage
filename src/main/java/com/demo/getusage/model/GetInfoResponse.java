@@ -8,6 +8,7 @@ public class GetInfoResponse {
     private String msisdn;
     private BigDecimal voiceUsage;
     private long voiceLeftOverUsage;
+    private BigDecimal dataUsage;
     
     public GetInfoResponse()
     {
@@ -84,7 +85,7 @@ public class GetInfoResponse {
     }
 
 
-    private BigDecimal dataUsage;
+
     private long dataLeftOverUsage;
     private String welcomeMessage;
 }
