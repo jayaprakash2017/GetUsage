@@ -17,7 +17,7 @@ public class RequestValidatorTest {
 		Boolean expectedResult = false;
 		//Boolean expectedResult = true;
 		Boolean actualResult = requestValidator.isValidMsisdn(msisdn);
-		Assert.assertEquals(expectedResult, actualResult);
+		Assert.assertEquals(expectedResult, actualResult); 
 	} 
 
 	@Test
