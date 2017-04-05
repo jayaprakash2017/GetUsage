@@ -4,6 +4,11 @@ import java.math.BigDecimal;
 
 public class GetInfoResponse {
 
+    private String name;
+    private String msisdn;
+    private BigDecimal voiceUsage;
+    private long voiceLeftOverUsage;
+    
     public GetInfoResponse()
     {
     }
@@ -78,10 +83,7 @@ public class GetInfoResponse {
         this.welcomeMessage = welcomeMessage;
     }
 
-    private String name;
-    private String msisdn;
-    private BigDecimal voiceUsage;
-    private long voiceLeftOverUsage;
+
     private BigDecimal dataUsage;
     private long dataLeftOverUsage;
     private String welcomeMessage;
